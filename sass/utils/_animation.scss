@@ -1,0 +1,41 @@
+// loader animation
+@keyframes dis {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+// loader icon animation
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// appear animation
+@keyframes appear {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
+
+// menu animation
+@keyframes menu {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+}
